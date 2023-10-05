@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>3.11 What's my name again</title>
+	<style>
+		/*Write your CSS code here*/
+		div {
+			width: 100px;
+			height: 100px;
+			border: 3px solid yellow;
+			font-size: 100px;
+		}
+
+		.Lclass {
+			transition: height 2s, background-color 4s;
+			color: pink;
+		}
+
+		.Lclass:hover {
+			background-color: green;
+			height:200px;
+       transform: rotatex(360deg);
+		}
+
+		.Iclass {
+			transition: width 1s, background-color 1s, border-width 2s;
+		}
+
+		.Iclass:hover {
+			background-color: blue;
+			width: 100px;
+			border-width: 200px;
+       
+		}
+
+    	.Bclass {
+			transition: height 2s, background-color 4s;
+			color: red;
+		}
+
+		.Bclass:hover {
+			background-color: green;
+			height:100px;
+      transform: skewY(50deg);
+		}
+
+    .Eclass {
+			transition: width 1s, background-color 1s, border-width 2s;
+      transform: rotatex(360deg)
+		}
+
+		.Eclass:hover {
+			background-color: blue;
+			width: 100px;
+       transform: rotatex(360deg);
+		}
+
+    .Tclass {
+			transition: height 2s, background-color 4s;
+			color: green;
+		}
+
+		.Tclass:hover {
+			background-color: green;
+			height:200px;
+     transform: rotate(45deg);
+  transform-origin: 20% 40%;
+		}
+
+    .Hclass {
+			transition: width 1s, background-color 1s, border-width 2s;
+		}
+
+		.Hclass:hover {
+			background-color: blue;
+			width: 10px;
+			border-width: 20px;
+      transform: rotate(330deg);
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+	<!--Write your HTML code here -->
+
+	<p>Hover over each letter to see the transition effect:</p>
+
+	<div class="Lclass">L</div>
+
+	<div class="Iclass">I</div>
+
+  <div class="Bclass">B</div>
+
+  <div class="Eclass">E</div>
+
+  <div class="Tclass">T</div>
+
+  <div class="Hclass">H</div>
+
+</body>
+
+</html>
+</head>
