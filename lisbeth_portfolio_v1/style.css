@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body h1 {
+    background-color: #DDFFF9;
+    border-left-color: #C3FFFE;
+    border-right-color: #C3FFFE;
+    border-bottom-color: #C3FFFE;
+    border-top: thick dotted #3AD8D4;
+}
+h1 {
+    background-color: #F5D7FF;
+    background-image: -webkit-linear-gradient(270deg,rgba(192,228,255,1.00) 0%,rgba(246,179,212,1.00) 1.85%,rgba(179,192,246,1.00) 1.85%,rgba(222,222,253,1.00) 40.49%,rgba(214,247,255,1.00) 45.62%);
+    background-image: -moz-linear-gradient(270deg,rgba(192,228,255,1.00) 0%,rgba(246,179,212,1.00) 1.85%,rgba(179,192,246,1.00) 1.85%,rgba(222,222,253,1.00) 40.49%,rgba(214,247,255,1.00) 45.62%);
+    background-image: -o-linear-gradient(270deg,rgba(192,228,255,1.00) 0%,rgba(246,179,212,1.00) 1.85%,rgba(179,192,246,1.00) 1.85%,rgba(222,222,253,1.00) 40.49%,rgba(214,247,255,1.00) 45.62%);
+    background-image: linear-gradient(180deg,rgba(192,228,255,1.00) 0%,rgba(246,179,212,1.00) 1.85%,rgba(179,192,246,1.00) 1.85%,rgba(222,222,253,1.00) 40.49%,rgba(214,247,255,1.00) 45.62%);
+}
+
+body img {
+}
+h1 {
+    border-top-width: thick;
+}
+img {
+    border-top: thick dashed #E8A5FF;
+}
+body {
+    background-color: #DDFFF6;
+}
+p1 {
+}
+body {
+    background-color: #D1FFF8;
+}
+p {
+}
+p1 {
+    background-color: #C3F5F6;
+}
+
+p1 {
+    color: #BDFDFF;
+}
+h1 {
+    color: #959595;
+    border-color: #CEFFF7;
+}
