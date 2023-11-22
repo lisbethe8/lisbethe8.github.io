@@ -1,0 +1,72 @@
+!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign-UP Form for Food Blog</title>
+
+
+</head>
+<body>
+!!doc
+<h1>Sign-UP Form for Food Blog</h1>
+
+<form action="https://handlers.education.launchcode.org/request-parrot" method= "post">
+<label for="Firstname">First Name:</label>
+<input name ="firstname" required="required" type="text"  id="firstname" >
+	<br>
+	<label for="lastname">Last Name:</label>
+	<input type="lastname" required="required" type="text" id="lastname">
+	<br>
+  <label for="username">Username</label>
+	<input name="username" type="text" required="required" id="username" placeholder="6-8 Letters Only" pattern="[A-Za-z]{6,10}" >
+	<br>
+	<label for="password">Password</label>
+	<input name="password" type="password" required="required" id="password" placeholder="6-8 Letters/#'s" pattern="[0-9A-Za-z]{6,10}" >
+	<br>
+	<label for="date">Date Of Birth</label>
+	<input for="date" type="date" required="required" id="date">
+	<br>
+	<label for="number">Phone #</label>
+  <input for="number" type="tel" required="required" id="number">
+  <br>
+	<label for="personal">Personal Website</label>
+	<input for="personal" type="url" id="personal">
+	<br>
+	<p></p>
+	Interests
+	<br>
+	<input for="interest1" type="checkbox" id="interest1">
+	<label for="interest1">Hoyoverse</label>
+	<br>
+	<input for="interest2" type="checkbox" id="interest2">
+	<label for="interest2">Writing</label>
+	<br>
+		<input for="interest3" type="checkbox" id="interest3">
+	<label for="interest3">Fictional Novels</label>
+	<br>
+		<input for="interest4" type="checkbox" id="interest4">
+	<label for="interest4">Editing</label>
+	<br>
+	<p></p>
+	Where did you hear about this site?
+	<br>
+	<input  for="option1" type="radio" id="option1">
+	<label for="option1">Relative</label>
+	<br>
+	<input  for="option2" type="radio" id="option2">
+	<label for="option2">Friend</label>
+	<br>
+	<input  for="option3" type="radio" id="option3">
+	<label for="option3">Advertisement</label>
+	<br>
+	<input  for="option4" type="radio" id="option4">
+	<label for="option4">Other</label>
+<br>
+	<p></p>
+<input type="Submit"><input type="Reset">
+</form>
+
+
+</body>
+</html>
+
